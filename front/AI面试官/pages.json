@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/BOOK/BOOK",
+			"style": {
+				"navigationBarTitleText": "题库"
+			}
+		},
+		{
+			"path": "pages/Time/Time",
+			"style": {
+				"navigationBarTitleText": "历史"
+			}
+		},
+		{
+			"path": "pages/User/User",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/Assistant/Assistant",
+			"style": {
+				"navigationBarTitleText": "模拟面试",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+					"path": "pages/login/login",
+					"style": {
+						"navigationBarTitleText": "登录/注册",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "components/CodeBlock/CodeBlock",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+			"color": "#7A7E83",            
+			"selectedColor": "#007AFF",    
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [
+				{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/tabbar/home.png",
+					"selectedIconPath": "static/tabbar/home-active.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/BOOK/BOOK",
+					"iconPath": "static/tabbar/library.png",
+					"selectedIconPath": "static/tabbar/library-active.png",
+					"text": "题库"
+				},
+				// {
+				// 	"pagePath": "pages/Time/Time",
+				// 	"iconPath": "static/tabbar/history.png",
+				// 	"selectedIconPath": "static/tabbar/history-active.png",
+				// 	"text": "复盘"
+				// },
+				{
+					"pagePath": "pages/User/User",
+					"iconPath": "static/tabbar/user.png",
+					"selectedIconPath": "static/tabbar/user-active.png",
+					"text": "我的"
+				}
+			]
+		}
+}
